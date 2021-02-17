@@ -7,6 +7,6 @@ This is my work-in-progress Zephyr RTOS Samples Collection
 
 Right now there are the follwoing samples available:
 * basic Hallo World with LED0 blinking and serial console output
-* basic Hallo World with LED0 blinking and USB console output
+* basic Hallo World with LED0 blinking, USB console output and Logging
 
 
