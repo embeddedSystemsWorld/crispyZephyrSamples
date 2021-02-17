@@ -2,7 +2,7 @@
 # BOARD :=nucleo_l011k4
 # BOARD :=nucleo_l476rg
 # BOARD :=nucleo_h743zi
-# BOARD :=nucleo_h743zi
+# BOARD :=nucleo_f746zg
 BOARD := adafruit_feather_nrf52840_sense
 
 THIS_DIR := $(dir $(abspath $(firstword $(MAKEFILE_LIST))))
