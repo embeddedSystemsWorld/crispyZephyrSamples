@@ -3,10 +3,10 @@
 # Copyright (c) 2020 Tobias Svehagen
 # SPDX-License-Identifier: Apache-2.0
 
-if BOARD_ADAFRUIT_FEATHER_NRF52840
+if BOARD_ADAFRUIT_FEATHER_NRF52840_SENSE
 
 config BOARD
-	default "adafruit_feather_nrf52840"
+	default "adafruit feather nrf52840 sense"
 
 if USB
 
@@ -21,4 +21,4 @@ endif # USB
 config BT_CTLR
 	default BT
 
-endif # BOARD_ADAFRUIT_FEATHER_NRF52840
+endif # BOARD_ADAFRUIT_FEATHER_NRF52840_SENSE

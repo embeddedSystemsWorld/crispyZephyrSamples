@@ -9,7 +9,7 @@
 /* #include "feather_connector.dtsi" */
 
 / {
-	model = "Adafruit Feather nRF52840 Express";
+	model = "Adafruit Feather nRF52840 Sense";
 	compatible = "adafruit,feather-nrf52840";
 
 	chosen {
