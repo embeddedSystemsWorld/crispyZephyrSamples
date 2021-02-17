@@ -1,6 +1,6 @@
 # Adafruit Feather nRF52840 Express board configuration
 
-# Copyright (c) 2020 Tobias Svehagen
+# Copyright (c) 2020 Tobias Svehagen, 2021 Thomas Popp
 # SPDX-License-Identifier: Apache-2.0
 
 if BOARD_ADAFRUIT_FEATHER_NRF52840_SENSE
