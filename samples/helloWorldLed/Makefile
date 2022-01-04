@@ -3,7 +3,8 @@
 # BOARD :=nucleo_l476rg
 # BOARD :=nucleo_h743zi
 # BOARD :=nucleo_f746zg
-BOARD := adafruit_feather_nrf52840_sense
+#BOARD := adafruit_feather_nrf52840_sense
+BOARD :="nucleo_wl55jc"
 
 THIS_DIR := $(dir $(abspath $(firstword $(MAKEFILE_LIST))))
 BOARD_ROOT := $(abspath $(THIS_DIR)/../../)
@@ -14,7 +15,6 @@ all:
 	west build -p auto -b $(BOARD) ./      -DBOARD_ROOT=$(BOARD_ROOT)
 
 clean:
-	-west build -t clean 
 	rm ./build/ -rf
 	
 flash:
