@@ -1,0 +1,15 @@
+
+To compile this sample: 
+
+- open a terminal
+- cd to this folder
+- source the zephyr environments by running the following command:
+    source ~/projects/zephyrproject.2.7.99/zephyr/zephyr-env.sh
+- run: make 
+- run: make flash
+- be happy!
+
+
+
+
+west build -t rom_report
